@@ -16,9 +16,15 @@ function parseReactSVGElement(source) {
     this.cacheable();
 
     var props = utils.parseQuery(this.query);
-    var templ = Object.assign({}, {
-        className: this.query.className || 'svg-icon',
-    }, props);
+    var templ = {
+        className: this.query.className || 'svg-icon'
+    };
+
+    for (var key in props) {
+        if (hasOwnProperty.call(props, key)) {
+            templ[key] = props[key];
+        }
+    }
 
     templ['svgElement'] = inlineSVG(source);
     const endResult = fromTemplate(template, templ);
