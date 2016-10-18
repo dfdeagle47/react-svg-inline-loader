@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "loader-utils": "^0.2.14"
+  },
+  "description": "Finds all svg files require'd in as a React Component and inlines them.",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "should": "^8.3.1",
+    "webpack": "^1.13.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "28594b73ab9e678fd44e0f9b05ab797c90309fd9",
+    "tarball": "https://registry.npmjs.org/react-svg-inline-loader/-/react-svg-inline-loader-0.2.2.tgz"
+  },
+  "gitHead": "1de8e67def92066a2db1b8fb3efa130853e91881",
+  "keywords": [
+    "svg",
+    "inline",
+    "webpack",
+    "loader",
+    "react"
+  ],
+  "license": "WTFPL",
+  "main": "src/loader.js",
+  "maintainers": [
+    {
+      "name": "nightwolfz",
+      "email": "ryan@megidov.com"
+    }
+  ],
+  "name": "react-svg-inline-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.2.2"
+}
