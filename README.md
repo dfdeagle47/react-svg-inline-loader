@@ -45,7 +45,7 @@ It should work with both the server-side rendering and on the browser.
 
 ## Installation
 
-    npm install react-svg-inline-loader --save
+    npm install @jonathan.alzetta/react-svg-inline-loader --save
 
 
 ## Tests
