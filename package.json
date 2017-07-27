@@ -1,4 +1,8 @@
 {
+  "author": "Jonathan Alzetta <jonathan@wooclap.com>",
+  "bugs": {
+    "url": "https://github.com/dfdeagle47/react-svg-inline-loader/issues"
+  },
   "dependencies": {
     "loader-utils": "^0.2.14"
   },
@@ -11,11 +15,7 @@
     "webpack": "^1.13.0"
   },
   "directories": {},
-  "dist": {
-    "shasum": "28594b73ab9e678fd44e0f9b05ab797c90309fd9",
-    "tarball": "https://registry.npmjs.org/react-svg-inline-loader/-/react-svg-inline-loader-0.2.2.tgz"
-  },
-  "gitHead": "1de8e67def92066a2db1b8fb3efa130853e91881",
+  "homepage": "https://github.com/dfdeagle47/react-svg-inline-loader",
   "keywords": [
     "svg",
     "inline",
@@ -29,11 +29,17 @@
     {
       "name": "nightwolfz",
       "email": "ryan@megidov.com"
+    }, {
+      "name": "jalzetta",
+      "email": "jonathan@wooclap.com"
     }
   ],
-  "name": "react-svg-inline-loader",
+  "name": "@jonathan.alzetta/react-svg-inline-loader",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfdeagle47/react-svg-inline-loader"
+  },
   "scripts": {
     "test": "mocha"
   },
